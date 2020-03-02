@@ -7,7 +7,6 @@ Theses templates allow you to create infrastructure and deploy a web application
 <ul>
   <li>You can specify S3 bucket name where the stack can to get the code your application in the file <code>servers.yml</code>.</li>
 </ul>  
-<br/>
 <h4>How to use:</h4>
 <ul>
   <li>First, create infrastructure network: <code>aws cloudformation create-stack --stack-name network --template-body file:///&#60your-path&#62/network.yml --parameters file:///&#60your-path&#62network-params.json</code></li>
