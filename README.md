@@ -1,12 +1,12 @@
 # deploy-high-availability-webapp-cloudformation
 Deploying high availability web application on Apache Server using AWS Cloudformation.
 <br/>
+Theses templates allow you to create infrastructure and deploy a web application based on Apache Server using AWS Cloudformation.
+<br/>
 <h4>Importante notes:</h4>
 <ul>
   <li>You can specify S3 bucket name where the stack can to get the code your application in the file <code>servers.yml</code>.</li>
 </ul>  
-    
-Theses templates allow you to create infrastructure and deploy a web application based on Apache Server using AWS Cloudformation.
 <br/>
 <h4>How to use:</h4>
 <ul>
