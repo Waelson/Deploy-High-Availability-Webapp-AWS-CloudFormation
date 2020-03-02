@@ -5,7 +5,7 @@ Theses templates allow you to create infrastructure and deploy a web application
 <br/>
 <h4>Important note:</h4>
 <ul>
-  <li>You can specify S3 bucket and file name where the stack can to get the code your application in the file <code>servers.yml</code>.</li>
+  <li>You can specify S3 bucket and file name where the stack can to get the code your application in the file <code>servers.yml</code> to deploy it.</li>
 </ul>  
 <h4>How to use:</h4>
 <ul>
