@@ -1,6 +1,11 @@
 # deploy-high-availability-webapp-cloudformation
 Deploying high availability web application on Apache Server using AWS Cloudformation.
 <br/>
+<h4>Importante notes:</h4>
+<ul>
+  <li>You will need to create a Key Pair through web console, to edit servers.yml file and to update value of the KeyName attribute in the resource AWS::AutoScaling::LaunchConfiguration</li>
+</ul>  
+    
 Theses templates allow you to create infrastructure and deploy a web application based on Apache Server using AWS Cloudformation.
 <br/>
 <h4>How to use:</h4>
