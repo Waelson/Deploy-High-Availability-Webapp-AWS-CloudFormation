@@ -6,7 +6,7 @@ Theses templates allow you to create infrastructure and deploy a web application
 <h4>How to use:</h4>
 <ul>
   <li>First, create infrastructure network: <code>aws cloudformation create-stack --stack-name network --template-body file:///&#60your-path&#62/network.yml --parameters file:///&#60your-path&#62network-params.json</code></li>
-    <li>Last, create servers and other resources: <code>aws cloudformation create-stack --stack-name servers --template-body file:///<your-path>/servers.yml --capabilities CAPABILITY_IAM --parameters file:///<your-path>/servers-params.json</code></li>  
+    <li>Last, create servers and other resources: <code>aws cloudformation create-stack --stack-name servers --template-body file:///&#60your-path&#62/servers.yml --capabilities CAPABILITY_IAM --parameters file:///&#60your-path&#62/servers-params.json</code></li>  
  </ul>
 <h4>Solution diagram:</h4>
 <img src="https://github.com/Waelson/deploy-high-availability-webapp-cloudformation/blob/master/diagram.png">
