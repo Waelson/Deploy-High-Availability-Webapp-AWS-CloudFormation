@@ -30,7 +30,7 @@ Resources:
           -
             Effect: "Allow"
             Action: "s3:GetObject"
-            Resource: "arn:aws:s3:::udacity-demo-waelson/*"
+            Resource: "arn:aws:s3:::udacity-demo-1/*"
       Roles: 
         - Ref: UdacityS3ReadOnlyEC2
 
@@ -95,7 +95,7 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          aws s3 cp s3://udacity-demo-waelson/udacity.zip .
+          aws s3 cp s3://udacity-demo-1/udacity.zip .
           unzip -o udacity.zip 
       ImageId: ami-005bdb005fb00e791
       IamInstanceProfile:
