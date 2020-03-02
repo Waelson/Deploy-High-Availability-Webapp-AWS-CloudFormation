@@ -3,7 +3,7 @@ Deploying high availability web application on Apache Server using AWS Cloudform
 <br/>
 <h4>Importante notes:</h4>
 <ul>
-  <li>You will need to create a Key Pair through web console, to edit <code>servers.yml</code> file and to update value of the <code>KeyName</code> attribute in the resource <code>AWS::AutoScaling::LaunchConfiguration</code></li>
+  <li>You can specify S3 bucket name where stack can to get the code your application. Please, edit file <code>servers.yml</code></li>
 </ul>  
     
 Theses templates allow you to create infrastructure and deploy a web application based on Apache Server using AWS Cloudformation.
