@@ -5,7 +5,7 @@ Theses templates allow you to create infrastructure and deploy a web application
 <br/>
 <h4>How to use:</h4>
 <ul>
-  <li>First, create a infrastructure network: <code>aws cloudformation create-stack --stack-name network --template-body file://network.yml --parameters file://network-params.json</code></li>
+  <li>First, create infrastructure network: <code>aws cloudformation create-stack --stack-name network --template-body file://network.yml --parameters file://network-params.json</code></li>
   <li></li>  
  </ul>
 <h4>Solution diagram:</h4>
